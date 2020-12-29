@@ -12,12 +12,14 @@
 // alert(division);
 // alert(multiplication);
 
+// console.log(`${chiffre1} + ${chiffre2} = ${chiffre1 + chiffre2}`);
+
 // EXO 2
 
 let age = prompt("Ton âge ?")
 let prenom = prompt("Ton prénom ?")
-age = parseInt(age)
+ageNombre = parseInt(age)
 
 console.log(`${prenom} a ${age} ans cette année`);
-console.log(`${prenom} aura ${age+3} ans dans 3 ans`);
+console.log(`${prenom} aura ${ageNombre + 3} ans dans 3 ans`);
 
